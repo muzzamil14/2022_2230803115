@@ -1,0 +1,71 @@
+<tugas 2.html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage DATA ENTRY</title>
+</head>
+<body>
+    <h1>Homepage DATA ENTRY</h1>
+    <form action="#" method="post">
+        <label for="nama">1. Nama:</label>
+        <input type="text" id="nama" name="nama" required><br><br>
+
+        <label for="nrp">2. NIM:</label>
+        <input type="text" id="nrp" name="nrp" required><br><br>
+
+        <label for="kelas">3. Kelas:</label>
+        <input type="text" id="kelas" name="kelas" required><br><br>
+
+        <label>4. Jenis Kelamin:</label><br>
+        <input type="radio" id="pria" name="jenis_kelamin" value="Pria" required>
+        <label for="pria">Pria</label>
+        <input type="radio" id="wanita" name="jenis_kelamin" value="Wanita" required>
+        <label for="wanita">Wanita</label><br><br>
+
+        <label for="agama">5. Agama:</label>
+        <select id="agama" name="agama" required>
+            <option value="Islam">Islam</option>
+            <option value="Kristen">Kristen</option>
+            <option value="Hindu">Hindu</option>
+            <option value="Budha">Budha</option>
+        </select><br><br>
+
+        <label for="tempat_lahir">6. Tempat/Tanggal Lahir:</label>
+        <input type="text" id="tempat_lahir" name="tempat_lahir" required>
+        <input type="date" id="tanggal_lahir" name="tanggal_lahir" required><br><br>
+
+        <label for="alamat">7. Alamat:</label><br>
+        <textarea id="alamat" name="alamat" rows="4" cols="50"></textarea><br><br>
+
+        <label>8. Riwayat Pendidikan:</label><br>
+        A. SD: <input type="text" id="riwayat_sd" name="riwayat_sd"><br>
+        B. SMP: <input type="text" id="riwayat_smp" name="riwayat_smp"><br>
+        C. SMA: <input type="text" id="riwayat_sma" name="riwayat_sma"><br><br>
+
+        <label for="email">9. Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="homepage">10. Homepage:</label>
+        <input type="text" id="homepage" name="homepage"><br><br>
+
+        <label for="hobby">11. Hobby:</label><br>
+        <textarea id="hobby" name="hobby" rows="4" cols="50"></textarea><br><br>
+
+        <label>12. minat:</label><br>
+        <input type="checkbox" id="komputer" name="interest[]" value="Komputer">
+        <label for="komputer">Komputer</label><br>
+        <input type="checkbox" id="sport" name="interest[]" value="Sport">
+        <label for="sport">Sport</label><br>
+        <input type="checkbox" id="travelling" name="interest[]" value="Travelling">
+        <label for="travelling">Travelling</label><br>
+        <input type="checkbox" id="writing" name="interest[]" value="Writing">
+        <label for="writing">Writing</label><br>
+        <input type="checkbox" id="reading" name="interest[]" value="Reading">
+        <label for="reading">Reading</label><br><br>
+
+        <input type="submit" value="Simpan">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
